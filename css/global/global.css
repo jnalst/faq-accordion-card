@@ -1,0 +1,73 @@
+:root {
+  /* 10 px = 1 rem */
+  font-size: 62.5%;
+
+  /* ####Text */
+  --vDarkDesatBlue: hsl(238, 29%, 16%);
+  --softRed: hsl(14, 88%, 65%);
+  
+  /*  ####Gradient Background gradient: */
+  --softViolet: hsl(273, 75%, 66%);
+  --softBlue: hsl(240, 73%, 65%);
+  
+  /* ###Neutral */
+  --b:#000000;
+  --w:#ffffff;
+
+  /* ####Text */
+  --vDarkGrayBlue: hsl(237, 12%, 33%);
+  --darkGrayBlue: hsl(240, 6%, 50%);
+  
+  /* ####Dividers */
+  --lGrayBlue: hsl(240, 5%, 91%);
+}
+
+/* CSS RESET */
+
+html {
+  scroll-behavior: smooth;
+  transition: all .5s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+.container-action {
+  box-sizing: border-box;
+  max-width: 800px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+}

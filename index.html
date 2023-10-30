@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body-bg">
+  <main class="faq-bg">
+    <div class="faq-img">
+      <picture>
+        <img class="img-bg" src="./images/bg-pattern-desktop.svg" alt="">
+        <img class="imgmain" src="./images/illustration-woman-online-desktop.svg" alt="">
+      </picture>
+    </div>
+    <div class="faq-texto">
+      <h1>FAQ</h1>
+      <dl>
+        <div>
+          <dt><button aria-controls="pergunta1" aria-expanded="true">How many team members can I invite?</button></dt>
+          <dd id="pergunta1">You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.</dd>
+        </div>
+        <div>
+          <dt><button aria-controls="pergunta2" aria-expanded="false">What is the maximum file upload size?</button></dt>
+          <dd id="pergunta2" class="ativa">No more than 2GB. All files in your account must fit your allotted storage space.</dd>
+        </div>
+        <div>
+          <dt><button aria-controls="pergunta3" aria-expanded="false">How do I reset my password?</button></dt>
+          <dd id="pergunta3">Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</dd>
+        </div>
+        <div>
+          <dt><button aria-controls="pergunta4" aria-expanded="false">Can I cancel my subscription?</button></dt>
+          <dd id="pergunta4">Yes! Send us a message and we’ll process your request no questions asked.</dd>
+        </div>
+        <div>
+          <dt><button aria-controls="pergunta5" aria-expanded="false">Do you provide additional support?</button></dt>
+          <dd id="pergunta5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</dd>
+        </div>
+      </dl>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/jnalst">Jnalst</a>.
+  </footer>
+</body>
+
+</html>
