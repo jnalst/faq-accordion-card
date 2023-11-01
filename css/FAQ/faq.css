@@ -1,0 +1,135 @@
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #af67e9, #6565e7);
+  z-index: -10;
+  background-repeat: no-repeat;
+}
+
+.faq-bg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: var(--w);
+  width: 110rem;
+  height: 58rem;
+  border-radius: 4rem 4rem;
+  position: absolute;
+  padding-right: 10rem;
+}
+
+.faq-img {
+  z-index: 1;
+  display: grid;
+  align-items: center;
+}
+
+.faq-img .img-bg {
+  z-index: -1;
+  position: absolute;
+  left: -37rem;
+  width: 80rem;
+}
+
+.faq-img .imgmain {
+position: absolute;
+left: -4.4rem;
+}
+
+.faq-img::after {
+  content: "";
+  position: absolute;
+  background-image: url("/images/illustration-box-desktop.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 30rem;
+  height: 30rem;
+  top: 26rem;
+  left: -9.5rem;
+  z-index: 10;
+}
+
+.faq-texto{
+  font-family: "Kumbh Sans";
+}
+
+.faq-texto div{
+position: relative;
+}
+
+.faq-texto div::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: .2rem;
+  background-color: var(--lGrayBlue);
+  position: absolute;
+}
+
+.faq-texto h1 {
+  color: var(--vDarkDesatBlue);
+  padding-bottom: 2rem;
+  font-size: 3.4rem;
+}
+
+.faq-texto dl{
+ display: grid;
+}
+
+.faq-texto button {
+  display: grid;
+  grid-template-columns:1fr auto;
+  align-items: center;
+  gap: .8rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  font-family: "Kumbh Sans";
+  font-size: 1.6rem;
+  padding-block: 2rem;
+  color: var(--vDarkDesatBlue);
+}
+
+.faq-texto button:hover{
+  font-weight: 700;
+  color: var(--softRed);
+}
+
+.faq-texto button::after {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: .6rem;
+  background: url("/images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  transition: .3s;
+  align-self: center;
+}
+
+.faq-texto button:hover::after,
+.faq-texto button[aria-expanded="true"]::after{
+  transform: rotate(180deg);
+}
+
+.faq-texto button:visited {
+  font-weight: 700;
+}
+
+.faq-texto dd{
+  display: none;
+}
+
+.faq-texto dd.ativa{
+  display: block;
+  padding-bottom: 2rem;
+  color: var(--darkGrayBlue);
+}
+
+.faq-texto dd{
+  max-width: 63ch;
+}

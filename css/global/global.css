@@ -3,23 +3,23 @@
   font-size: 62.5%;
 
   /* ####Text */
-  --vDarkDesatBlue: hsl(238, 29%, 16%);
-  --softRed: hsl(14, 88%, 65%);
+  --vDarkDesatBlue: #1d1e35;
+  --softRed: #f47c57;
   
   /*  ####Gradient Background gradient: */
-  --softViolet: hsl(273, 75%, 66%);
-  --softBlue: hsl(240, 73%, 65%);
+  --softViolet: #af67e9;
+  --softBlue: #6565e7;
   
   /* ###Neutral */
   --b:#000000;
   --w:#ffffff;
 
   /* ####Text */
-  --vDarkGrayBlue: hsl(237, 12%, 33%);
-  --darkGrayBlue: hsl(240, 6%, 50%);
+  --vDarkGrayBlue: #4a4b5e;
+  --darkGrayBlue: #787887;
   
   /* ####Dividers */
-  --lGrayBlue: hsl(240, 5%, 91%);
+  --lGrayBlue: #e7e7e9;
 }
 
 /* CSS RESET */
