@@ -1,9 +1,15 @@
 .attribution {
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
   font-family: "Kumbh Sans";
   color: var(--w);
 }
 .attribution a {
   color: var(--softRed);
+}
+
+@media screen and (max-width: 500px) {
+  .attribution {
+    font-size: 12px;
+  }
 }
